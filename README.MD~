@@ -8,8 +8,6 @@ cd into pathfinder-bot and run `catkin-make`
 add the location of /assessment1 and to ros package path:
 `export ROS_PACKAGE_PATH=path/to/assessment1:$ROS_PACKAGE_PATH`
 
-Make sure all files in assessment1/scripts are allowed to run as executables.
-
 Initialize map and params using "roslaunch assessment1 r.launch" and then use "rosrun assessment1 navigate.py"to make robot visit points.
 
 To assess the accuracy of the robot, the robot is dropping markers in Rviz, that are helpful for determining if it sticks to the calculated path, etc.
